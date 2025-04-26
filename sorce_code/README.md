@@ -19,6 +19,5 @@ The project follows the MVC (Model-View-Controller) architecture pattern.
 ---
 
 👉 If you want to view the original deployed project files, please use the following GitHub link to clone the repository:
-https://github.com/lingesan1233/recipes-app1.git
-
+https://github.com/lingesan1233/SimpleToken.git
 👉 I just created a separate source code file to get a permalink, because I couldn’t get one from the main code.
