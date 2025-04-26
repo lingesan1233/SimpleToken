@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "6b0ddf70-5219-4e7f-a03e-83aa098553e6",
+		"name": "User Authentication API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44356296",
+		"_collection_link": "https://lingesan.postman.co/workspace/8de57100-0a8e-46ab-8bec-1ba24144d109/collection/44356296-6b0ddf70-5219-4e7f-a03e-83aa098553e6?action=share&source=collection_link&creator=44356296"
+	},
+	"item": [
+		{
+			"name": "User Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"JohnDoe\",\r\n  \"email\": \"johndoe@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://simpletoken-1.onrender.com",
+					"protocol": "https",
+					"host": [
+						"simpletoken-1",
+						"onrender",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://simpletoken-1.onrender.com",
+					"protocol": "https",
+					"host": [
+						"simpletoken-1",
+						"onrender",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simpletoken-1.onrender.com",
+					"protocol": "https",
+					"host": [
+						"simpletoken-1",
+						"onrender",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "sj2Wtf2vdq",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
